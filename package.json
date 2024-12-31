@@ -1,0 +1,22 @@
+{
+  "name": "task11",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^6.9.16",
+    "nodemailer-express-handlebars": "^7.0.0",
+    "nodemon": "^3.1.9",
+    "web-push": "^3.6.7"
+  },
+  "type": "module"
+}
